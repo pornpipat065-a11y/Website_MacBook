@@ -13,12 +13,12 @@
             display : flex;
             justify-content : space-between;
             align-items : center;
-            padding : 15px;
+            padding : 10px;
         }
         .navbar a {
             color : white;
             text-decoration : none;
-            font-size :large; 
+            font-size : 20px; 
         }
         .menu a {
             font-size : 16px;
@@ -29,14 +29,40 @@
         .menu a:hover {
             color : #32c3e7;
         }
-       
-      
+        .Home {
+            background : url("ภาพพื้นหลังร้านMacbook.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            object-fit : cover;
+            height : 685px;
+            width: 100%;
+            display : flex;
+            justify-content : center;
+            align-items: center;
+        }
+        .text h1 {
+            margin-top : 0;
+            font-size: 24px;
+
+        }
+        .text {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.515);
+            color : white;
+            padding : 15px;
+            border-radius: 40px;
+            transition: 0.9s;
+        }
+        .text:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
 <!--------------- เเถบเมนู --------------->
     <div class="navbar">
-        <a href="#">MacBook Store</a>
+        <a href="#">MacBook Store 🍎 </a>
         <div class="menu">
             <a href="#home">Home</a>
             <a href="#macbook">MacBook</a>
@@ -44,6 +70,13 @@
             <a href="#contact">Contact</a>
         </div>
     </div>
-
+<!--------------- หน้าหลัก --------------->
+    <div id="home" class="Home">
+        <div class="text">
+            <h1>MacBook รุ่นใหม่ล่าสุด พร้อมส่งทั่วไทย</h1>
+            <p>เลือกMacBookที่ใช่ทั้ง Air และ Pro ครบทุกสเปครองรับทุกการใช้งาน</p>
+            <button>เลือกดู MacBook</button>
+        </div>
+    </div> 
 </body>
 </html>
