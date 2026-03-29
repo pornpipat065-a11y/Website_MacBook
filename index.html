@@ -18,10 +18,10 @@
         .navbar a {
             color : white;
             text-decoration : none;
-            font-size : 20px; 
+            font-size : 16px; 
         }
         .menu a {
-            font-size : 16px;
+            font-size : 14px;
             text-decoration : none;
             color : white;
             margin : 10px;
@@ -43,7 +43,7 @@
         }
         .text h1 {
             margin-top : 0;
-            font-size: 24px;
+            font-size: 22px;
 
         }
         .text {
@@ -53,9 +53,19 @@
             padding : 15px;
             border-radius: 40px;
             transition: 0.9s;
+            box-shadow: 20px 20px 50px blue;
         }
         .text:hover {
             transform: scale(1.05);
+        }
+        .text button {
+            background-color : rgb(92, 156, 235);
+            color : white;
+            border : none;
+            border-radius : 20px;
+            padding : 7px;
+            box-shadow: 2px 2px 50px blue;
+            cursor :pointer;
         }
     </style>
 </head>
@@ -75,7 +85,7 @@
         <div class="text">
             <h1>MacBook รุ่นใหม่ล่าสุด พร้อมส่งทั่วไทย</h1>
             <p>เลือกMacBookที่ใช่ทั้ง Air และ Pro ครบทุกสเปครองรับทุกการใช้งาน</p>
-            <button>เลือกดู MacBook</button>
+            <button id="macbook">เลือกดู MacBook</button>
         </div>
     </div> 
 </body>
