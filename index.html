@@ -64,7 +64,7 @@
         .text:hover {
             transform: scale(1.05);
         }
-        .text button {
+        .text a {
             background-color : rgb(92, 156, 235);
             color : white;
             border : none;
@@ -72,6 +72,13 @@
             padding : 7px;
             box-shadow: 2px 2px 50px blue;
             cursor :pointer;
+            text-decoration: none;
+            transition: 2s;
+        }
+        .text a:hover {
+            transform: scale(1.5);
+            background-color: aliceblue;
+            color : black;
         }
         h2 {
             text-align: center;
@@ -132,6 +139,23 @@
         p {
             font-size: 14px;
         }
+        .About {
+            background-color : rgb(237, 235, 235);
+            width: 100%;
+            box-shadow: 2px 2px 5px blue;
+        }
+        .content {
+            margin: 20px;
+            padding : 20px;
+            
+        }
+        .Footer {
+            background-color: black;
+            color : white;
+            padding : 15px;
+            text-align : center;
+            box-shadow: 2px 2px 10px blue;
+        }
     </style>
 </head>
 <body>
@@ -150,7 +174,7 @@
         <div class="text">
             <h1>MacBook รุ่นใหม่ล่าสุด พร้อมส่งทั่วไทย</h1>
             <p>เลือกMacBookที่ใช่ทั้ง Air และ Pro ครบทุกสเปครองรับทุกการใช้งาน</p>
-            <button href="#macbook">เลือกดู MacBook</button>
+            <a href="#macbook">เลือกดู MacBook</a>
         </div>
     </div> 
 <!--------------- หน้าสินค้า --------------->
@@ -324,6 +348,50 @@
                 <button>เพิ่มลงตะกร้า ➕</button>
             </div>
         </div>
-
+    </div>
+<!--------------- หน้าเกี่ยวกับร้าน --------------->
+        <div id="about" class="About">
+            <div class="content">
+                <h2>🏪 หน้า “เกี่ยวกับร้าน”</h2>
+                <h3>📄 เนื้อหา</h3>
+                <p>MacBook คือร้านจำหน่าย MacBook ที่คัดสรรสินค้าคุณภาพเพื่อให้ลูกค้าได้ใช้งานเครื่องที่ดีที่สุดในราคาที่คุ้มค่าเราเริ่มต้นจากทีมงานเล็กๆที่มีความหลงใหลในเทคโนโลยีและต้องการให้ทุกคนเข้าถึง MacBook ได้ง่ายขึ้น</p>
+                <h3>⭐ จุดเด่นของเรา</h3>
+                <ul>
+                    <li>✔️ สินค้าแท้ 100% ตรวจสอบได้ทุกเครื่อง</li>
+                    <li>✔️ มีการเช็คคุณภาพก่อนส่งทุกครั้ง</li>
+                    <li>✔️ จัดส่งรวดเร็วพร้อมแพ็คอย่างปลอดภัย</li>
+                    <li>✔️ มีทีมงานให้คำแนะนำแบบตรงไปตรงมา</li>
+                    <li>✔️ รองรับการใช้งานทั้งนักเรียนคนทำงานและสายโปร</li>
+                </ul>
+            </div>
+        </div>
+<!--------------- หน้าติดต่อเรา --------------->
+        <div id="contact" class="Contact">
+            <h2>📞 หน้า “ติดต่อเรา”</h2>
+            <div class="content">
+                <h3>📍 ข้อมูลร้าน</h3>
+                <ul>
+                    <li>📌 ที่อยู่: 88/88 ถนนเทคโนโลยี แขวงดิจิทัล เขตไอที กรุงเทพฯ 10200</li>
+                    <li>📞 โทรศัพท์: 088-888-8888</li>
+                    <li>📧 Email: support@macbookhub.co.th</li>
+                </ul>
+                <h3>📱 ช่องทางการติดต่อ</h3>
+                <ul>
+                    <li>💙 Facebook: MacBook Hub Official</li>
+                    <li>💚 Line: @macbookhub</li>
+                    <li>📸 Instagram: macbookhub_th</li>
+                    <li>🛒 เว็บไซต์: www.macbook.co.th</li>
+                </ul>
+                <h3>⏰ เวลาทำการ</h3>
+                <ul>
+                    <li>🕘 เปิดทุกวัน: 09:00 - 20:00 น.</li>
+                    <li>🚚 จัดส่งสินค้า: ทุกวัน (ตัดรอบ 15:00 น.)</li>
+                </ul>
+            </div>
+        </div>
+<!--------------- ส่วน Footer --------------->
+        <div class="Footer">
+            © 2026 MacBook Store
+        </div>
 </body>
 </html>
